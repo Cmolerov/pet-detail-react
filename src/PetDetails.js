@@ -1,13 +1,4 @@
-import React from "react";
+import PetDetailList from "./PetDetailList.js";
 
-import Navigation from "./Navigation";
-import PetDetails from "./PetDetails";
-import PetDetailList from "./PetDetailList";
-
-const PetDetailPage = (props) => (
-    <PetDetailList pet={props.pet}>
-        <Navigation />
-        <PetDetails pet={props.pet} />
-    </PetDetailList>
-);
-export default PetDetailPage;
+const PetDetails = (props) => <PetDetailList pet={props.pet} />;
+export default PetDetails;
