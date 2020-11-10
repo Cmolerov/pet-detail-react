@@ -1,10 +1,8 @@
-import React from 'react';
-import PetDetailPage from './PetDetailPage';
+import React from "react";
+import PetDetailPage from "./PetDetailPage";
 
-function App() {
-  return (
-    <PetDetailPage />
-  );
+function App(props) {
+    return <PetDetailPage pets={props.pet} />;
 }
 
 export default App;
