@@ -3,7 +3,7 @@ import PetDetailPage from './PetDetailPage';
 
 function App() {
   return (
-   <h1>Hello </h1>
+    <PetDetailPage />
   );
 }
 
